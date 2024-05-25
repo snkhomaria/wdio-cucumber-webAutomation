@@ -1,6 +1,4 @@
-const Page = require('./page')
-
-class CreateCustPage extends Page {
+class CreateCustPage{
     get CreateCustPageUrl() {
         return 'https://kasirdemo.belajarqa.com/customers/create'
     }

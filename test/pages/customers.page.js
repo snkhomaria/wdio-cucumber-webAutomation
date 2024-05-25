@@ -1,6 +1,4 @@
-const Page = require('./page')
-
-class CustomerPage extends Page{
+class CustomerPage {
     get customerPageUrl() {
         return 'https://kasirdemo.belajarqa.com/customers'
     }

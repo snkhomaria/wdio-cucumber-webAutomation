@@ -1,6 +1,4 @@
-const Page = require('./page')
-
-class DashboardPage extends Page {
+class DashboardPage {
     get dashboardPageUrl() {
         return 'https://kasirdemo.belajarqa.com/dashboard'
     }

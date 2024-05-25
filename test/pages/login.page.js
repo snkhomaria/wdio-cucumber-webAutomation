@@ -1,16 +1,7 @@
-const Page = require('./page')
-
-class LoginPage extends Page {
-    get loginPageUrl() {
-        return 'https://kasirdemo.belajarqa.com/login'
-    }
-
-    async assertLoginUrl() {
-        await expect(browser).toHaveUrl(this.loginPageUrl)
-    }
+class LoginPage {
 
     get emailInput() {
-        return $(`//input[@id='email']`);
+        return $('//input[@id="email"]');
     }
 
     get passwordInput() {
